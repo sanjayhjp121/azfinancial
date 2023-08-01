@@ -252,6 +252,7 @@ body.dark-theme{
     position: relative;
     column-gap: .25rem;
     transition: .4s;
+    /* margin-top: 50px; */
 }
 
 .nav__logo span{
@@ -407,7 +408,7 @@ body.dark-theme{
 
 .value__title{
     color: #fff;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: var(--font-medium);
 }
 
@@ -907,6 +908,11 @@ body.dark-theme{
 /*=============== break points ===============*/
 /* for bit bigger devices */
 @media screen and (min-width: 329px) {
+
+    .nav__logo img {
+        margin-top: 100px;
+    }
+
     .container{
         margin-inline: 1.5rem;
     }
@@ -985,6 +991,10 @@ body.dark-theme{
 
 /* for mediem devices */
 @media screen and (min-width: 576px) {
+    .nav__logo img {
+        margin-top: 10px;
+    }
+
     .nav__menu{
         width: 342px;
     }
@@ -1041,6 +1051,9 @@ body.dark-theme{
 }
 
 @media screen and (min-width: 767px) {
+
+    
+
     .container{
         margin-inline: 1.3rem;
     }
