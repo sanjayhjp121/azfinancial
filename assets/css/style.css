@@ -7,11 +7,11 @@
 
     /*========== Colors ==========*/
     /*Color mode HSL(hue, saturation, lightness)*/
-    --first-color: hsl(228, 66%, 53%);
+    --first-color: #151B54;
     --first-color-alt: hsl(228, 66%, 47%);
     --first-color-light: hsl(228, 62%, 59%);
     --first-color-lighten: hsl(228, 100%, 97%);
-    --second-color: hsl(25, 83%, 53%);
+    --second-color: #A99E61;
     --title-color: hsl(228, 57%, 28%);
     --text-color: hsl(228, 15%, 50%);
     --text-color-light: hsl(228, 12%, 75%);
@@ -111,7 +111,7 @@ button{
 /*========== Variables Dark theme ==========*/
 body.dark-theme{
     --first-color: hsl(228, 66%, 62%);
-    --second-color: hsl(25, 57%, 54%);
+    --second-color: #A99E61;
     --title-color: hsl(228, 8%, 95%);
     --text-color: hsl(228, 8%, 70%);
     --border-color: hsl(228, 16%, 14%);
@@ -225,11 +225,11 @@ body.dark-theme{
 }
 
 .header__swipe .nav__logo{
-    color: var(--first-color);
+    color: var(--first-color-alt);
 }
 
 .header__swipe .nav__logo svg path{
-    fill: var(--first-color);
+    fill: var(--first-color-alt);
 }
 
 .header__swipe .change-theme{
@@ -408,7 +408,7 @@ body.dark-theme{
 
 .value__title{
     color: #fff;
-    font-size: 1.3rem;
+    font-size: 1.25rem;
     font-weight: var(--font-medium);
 }
 
@@ -667,6 +667,7 @@ body.dark-theme{
 
 .contact__container{
     row-gap: 2rem;
+    margin-top: 6rem;
 }
 
 .contact__images{
@@ -781,7 +782,7 @@ body.dark-theme{
 }
 .subscribe__button{
     border: 2px solid #fff;
-    background-color: var(--first-color-light);
+    background-color: var(--second-color);
     font-size: var(--small-font-size);
     padding: .5rem 1em;
 }
@@ -1177,7 +1178,7 @@ body.dark-theme{
     .active-link{
         background: none;
         box-shadow: none;
-        color: var(--first-color);
+        color: var(--first-color-alt);
         font-weight: var(--font-medium);
     }
 
@@ -1264,7 +1265,7 @@ body.dark-theme{
 
     .value__img{
         width: 461px;
-        height: 600px;
+        height: 470px;
         border-radius: 238px 238px 12px 12px;
         top: .9rem;
     }
@@ -1273,12 +1274,12 @@ body.dark-theme{
         /* width: 501px;
         height: 641px; */
         width: 490px;
-        height: 630px;
+        height: 500px;
         border-radius: 258px 258px 16px 16px;
     }
     .contact__img{
         width: 461px;
-        height: 580px;
+        height: 540px;
         border-radius: 238px 238px 12px 12px;
     }
     .value__img img{
