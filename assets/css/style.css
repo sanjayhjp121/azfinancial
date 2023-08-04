@@ -1098,7 +1098,7 @@ body.dark-theme{
     }
 
     .contact__card-description {
-        font-size: var(--smaller-font-size);
+        font-size: 0.7rem;
     }
     
     .button{
@@ -1223,13 +1223,13 @@ body.dark-theme{
 
     .home__orbe{
         width: 504px;
-        height: 611px;
+        height: 630px;
         border-radius: 256px 256px 0 0;
     }
 
     .home__img{
         width: 472px;
-        height: 634px;
+        height: 600px;
         border-radius: 236px 236px 12px 12px;
         top: 1rem;
         left: 1rem;
@@ -1265,7 +1265,7 @@ body.dark-theme{
 
     .value__img{
         width: 461px;
-        height: 470px;
+        height: 320px;
         border-radius: 238px 238px 12px 12px;
         top: .9rem;
     }
@@ -1274,7 +1274,7 @@ body.dark-theme{
         /* width: 501px;
         height: 641px; */
         width: 490px;
-        height: 500px;
+        height: 350px;
         border-radius: 258px 258px 16px 16px;
     }
     .contact__img{
